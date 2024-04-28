@@ -1,6 +1,6 @@
 @layer utilities {
     .custom-container {
-        max-width: 1410px;
+        max-width: 1000px;
         padding-left: 1rem;
         padding-right: 1rem;
         margin-left: auto;
@@ -12,7 +12,7 @@
     }
 }
 
-body{
+body {
     font-family: sans-serif;
 }
 
@@ -23,7 +23,7 @@ body{
 .tab-container {
     display: flex;
     justify-content: flex-end;
-    
+
 }
 
 .tab {
@@ -32,14 +32,25 @@ body{
     margin-left: 10px;
     color: gray;
     font-weight: 500;
-    
+
+}
+
+@media only screen and (max-width:640px) {
+    .tab {
+        cursor: pointer;
+        padding: 0px 2px;
+        margin-left: 10px;
+        color: gray;
+        font-weight: 500;
+
+    }
 }
 
 .tab.active {
-   
+
     color: #000;
     font-weight: 500;
-     
+
 }
 
 .tab-content {
