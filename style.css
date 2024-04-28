@@ -53,7 +53,7 @@ body {
 
 .tab.active {
 
-    color: #000;
+    color: var(--primary-color);
     font-weight: 500;
 
 }
@@ -69,5 +69,5 @@ body {
 
 .our-gallery {
 
-    border-bottom: 3px solid rgb(3, 207, 3);
+    border-bottom: 3px solid var(--secondary-color);
 }
