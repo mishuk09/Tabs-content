@@ -46,8 +46,12 @@ body {
         padding: 0px 2px;
         margin-left: 10px;
         color: gray;
-        font-weight: 500;
 
+
+    }
+
+    .tab-container {
+        justify-content: center;
     }
 
 }
