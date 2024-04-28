@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="custom-container">
+        <div class="w-[50%] mt-10 text-center mx-auto items-center justify-center">
+            <span class="font-bold pb-2 our-gallery">Our Gallery</span>
+
+            <p class="text-[30px] font-bold mt-2 ">Some work from our memorable gallery</p>
+            <p class="mt-1 text-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero unde a numquam quam
+                odit harum,
+            </p>
+        </div>
+
+        <div class="tab-container right-0 mt-12">
+            <div class="tab active" onclick="openTab(event, 'tab1')">All</div>
+            <div class="tab" onclick="openTab(event, 'tab2')">Seo</div>
+            <div class="tab" onclick="openTab(event, 'tab3')">Interior</div>
+            <div class="tab" onclick="openTab(event, 'tab4')">Outdoor </div>
+            <div class="tab" onclick="openTab(event, 'tab5')">Grass</div>
+            <div class="tab" onclick="openTab(event, 'tab6')">Class</div>
+        </div>
+
+        <div id="tab1" class="tab-content mt-6 active  ">
+            <div class="grid grid-cols-3 gap-8">
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (6).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (8).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (8).jpeg" alt=""></div>
+            </div>
+        </div>
+
+        <div id="tab2" class="tab-content mt-6">
+            <div class="grid grid-cols-3 gap-8">
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (5).jpeg" alt=""></div>
+            </div>
+        </div>
+
+        <div id="tab3" class="tab-content mt-6">
+            <div class="grid grid-cols-3 gap-8">
+                <div><img class="w-full rounded" src="/img/images (6).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (6).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (6).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (6).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (6).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (6).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (6).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (6).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (6).jpeg" alt=""></div>
+            </div>
+        </div>
+
+        <div id="tab4" class="tab-content mt-6">
+            <div class="grid grid-cols-3 gap-8">
+                <div><img class="w-full rounded" src="/img/images (7).jpg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (7).jpg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (7).jpg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (7).jpg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (7).jpg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (7).jpg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (7).jpg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (7).jpg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (7).jpg" alt=""></div>
+            </div>
+        </div>
+
+        <div id="tab5" class="tab-content mt-6">
+            <div class="grid grid-cols-3 gap-8">
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+                <div><img class="w-full rounded" src="/img/grass.webp" alt=""></div>
+            </div>
+        </div>
+
+        <div id="tab6" class="tab-content mt-6">
+            <div class="grid grid-cols-3 gap-8">
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+                <div><img class="w-full rounded" src="/img/images (4).jpeg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content mt-6");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+
+</html>
