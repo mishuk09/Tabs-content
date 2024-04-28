@@ -12,8 +12,13 @@
     }
 }
 
+:root {
+    --primary-color: #0162b3;
+    --secondary-color: #eca725;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .text-color {
@@ -28,7 +33,7 @@ body {
 
 .tab {
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 5px 10px;
     margin-left: 10px;
     color: gray;
     font-weight: 500;
